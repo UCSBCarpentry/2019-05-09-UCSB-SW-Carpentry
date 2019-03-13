@@ -1,7 +1,7 @@
 # UCSB Software Carpentry Workshop repo based on Carpentry's workshop-template
 
---3/13/2019 this ReadMe edited to refect how to customize a UCSB workshop
---if you cloned this existing Python workshop from a previous UCSB repo
+- 3/13/2019 this ReadMe edited to refect how to customize a UCSB workshop
+- if you cloned this existing Python workshop from a previous UCSB repo
 
 This repository is based on The Carpentries' ([Software Carpentry][swc-site], [Data Carpentry][dc-site], and [Library Carpentry][lc-site]'s)
 template for creating websites for workshops. Cloned from there March, 2019
