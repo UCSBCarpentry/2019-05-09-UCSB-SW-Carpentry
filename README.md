@@ -1,10 +1,11 @@
 # UCSB Software Carpentry Workshop repo based on Carpentry's workshop-template
+# 3/13/2019 this ReadMe edited to refect how to customize a UCSB workshop
+# if you cloned this existing Python workshop from a previous UCSB repo
 
-This repository is The Carpentries' ([Software Carpentry][swc-site], [Data Carpentry][dc-site], and [Library Carpentry][lc-site]'s)
-template for creating websites for workshops.
+This repository is based on The Carpentries' ([Software Carpentry][swc-site], [Data Carpentry][dc-site], and [Library Carpentry][lc-site]'s)
+template for creating websites for workshops. Cloned from there March, 2019
 
-
-3.  Once you are done, please also [let us know][email] the workshop URL. If this is a self-organised workshop, you should also [fill in the self-organized workshop form][self-organized-workshop-form] (if you have not already done so), so we can keep track of all workshops. We build the list of workshops on our websites from the data included in your `index.md` page. We can only do that if you [customize][customization] that page correctly *and* let us know the workshop URL.
+It might be good form to ~~strikethrough~~ the parts of these customizations that you have completed. 
 
 If you run into problems,
 or have ideas about how to make this process simpler,
@@ -40,7 +41,7 @@ please [get in touch](#getting-and-giving-help).
 ## Customizing Your Website
 
 1.  Go into your newly-created repository,
-    which will be at `https://github.com/your_username/YYYY-MM-DD-site`.
+    which will be at `https://github.com/UCSBCarpentry/YYYY-MM-DD-site`.
     For example,
     if your username is `gvwilson`,
     the repository's URL will be `https://github.com/gvwilson/2016-12-01-miskatonic`.
@@ -67,8 +68,13 @@ please [get in touch](#getting-and-giving-help).
     
 5. Edit the `schedule.html` file to edit the schedule for your upcoming workshop. This file is located in the `_includes` directory, make sure to choose the one from the appropriate `dc` (Data Carpentry workshop), `lc` (Library Carpentry), or `sc` (Software Carpentry) subdirectory.
 
+At about this point, please also [let Carpentries know][email] the workshop URL. If this is a self-organised workshop (which it most likely is), you should also [fill in the self-organized workshop form][self-organized-workshop-form] (if you have not already done so), so we can keep track of all workshops. We build the list of workshops on our websites from the data included in your `index.md` page. We can only do that if you [customize][customization] that page correctly *and* let us know the workshop URL.
+
+
+
+
 6.  Alternatively,
-    if you are already familiar with Git,
+    you can be jaunty and do this from Git at the command line,
     you can clone the repository to your desktop,
     edit `index.md`, `_config.yml`, and `schedule.html` there,
     and push your changes back to the repository.
