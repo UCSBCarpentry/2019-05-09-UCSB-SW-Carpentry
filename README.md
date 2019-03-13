@@ -103,6 +103,13 @@ At about this point, please also [let Carpentries know][email] the workshop URL.
 
 9.  Optional: Add a link to your workshop website on the repository main page in the description/website section (look for the `Edit` button on the right to add).  
 
+10. Unless we're missing something, moving episodes into the Workshop is a pretty manual process. Also, you either need to segregate each episode into subdirectories, or else pre-pend a number to the filenames to make the forward arrows work.
+
+Prepend like this: 
+`for f in *.md; do mv "$f" "1$f"; done;`
+1, 2, and 3 work better than starting with 0.
+
+
 **Note:**
 please do all of your work in your repository's `gh-pages` branch,
 since [GitHub automatically publishes that as a website][github-project-pages].
