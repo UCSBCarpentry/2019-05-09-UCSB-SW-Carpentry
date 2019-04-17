@@ -419,7 +419,7 @@ data-shell/
 
 Your output should be a list of all the files and sub-directories on your
 Desktop, including the `data-shell` directory you downloaded at
-the [setup for this lesson]({{ page.root }}{% link setup.md %}).  Take a look at your Desktop to confirm that
+the setup for this lesson.  Take a look at your Desktop to confirm that
 your output is accurate.  
 
 As you may now see, using a bash shell is strongly dependent on the idea that
