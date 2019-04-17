@@ -648,7 +648,7 @@ please preview your site before committing, and make sure to run
       <li role="presentation"><a data-os="macos" href="#rstats-macos" aria-controls="MacOS" role="tab" data-toggle="tab">MacOS</a></li>
       <li role="presentation"><a data-os="linux" href="#rstats-linux" aria-controls="Linux" role="tab" data-toggle="tab">Linux</a></li>
     </ul>
-
+    <!  
     <div class="tab-content">
       <article role="tabpanel" class="tab-pane active" id="rstats-windows">
         <a href="https://www.youtube.com/watch?v=q0PjTAylwoU">Video Tutorial</a>
@@ -716,7 +716,7 @@ please preview your site before committing, and make sure to run
             Library Carpentry
             {% endif %}
             Windows Installer
-	  </a>
+  	  </a>
           installs SQLite for Windows.
           If you used the installer to configure nano, you don't need to run it again.
         </p>
