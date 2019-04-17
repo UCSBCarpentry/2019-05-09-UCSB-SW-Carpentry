@@ -754,42 +754,42 @@ please preview your site before committing, and make sure to run
       <li role="presentation"><a data-os="linux" href="#openrefine-linux" aria-controls="Linux" role="tab" data-toggle="tab">Linux</a></li>
     </ul>
 
-    <div class="tab-content">
-      <article role="tabpanel" class="tab-pane active" id="openrefine-windows">
-        <p>
-          Check that you have either the Firefox or the Chrome browser installed and set as your default browser.
-          <strong>OpenRefine runs in your default browser.</strong>
-          It will not run correctly in Internet Explorer.
-        </p>
-        <p>Download software from <a href="http://openrefine.org/">http://openrefine.org/</a></p>
-        <p>Create a new directory called OpenRefine.</p>
-        <p>Unzip the downloaded file into the OpenRefine directory by right-clicking and selecting "Extract ...". </p>
-        <p>Go to your newly created OpenRefine directory.</p>
-        <p>Launch OpenRefine by clicking <code>openrefine.exe</code> (this will launch a command prompt window, but you can ignore that - just wait for OpenRefine to open in the browser).</p>
-        <p>If you are using a different browser, or if OpenRefine does not automatically open for you, point your browser at <a href="http://127.0.0.1:3333/">http://127.0.0.1:3333/</a> or <a href="http://localhost:3333">http://localhost:3333</a> to use the program.</p>
-      </article>
-      <article role="tabpanel" class="tab-pane active" id="openrefine-macos">
-        <p>Check that you have either the Firefox or the Chrome browser installed and set as your default browser. <strong>OpenRefine runs in your default browser.</strong> It may not run correctly in Safari.</p>
-        <p>Download software from <a href="http://openrefine.org/">http://openrefine.org/</a>.</p>
-        <p>Create a new directory called OpenRefine.</p>
-        <p>Unzip the downloaded file into the OpenRefine directory by double-clicking it.</p>
-        <p>Go to your newly created OpenRefine directory.</p>
-        <p>Launch OpenRefine by dragging the icon into the Applications folder.</p>
-        <p>Use <code>Ctrl-click/Open ... </code> to launch it.</p>
-        <p>If you are using a different browser, or if OpenRefine does not automatically open for you, point your browser at <a href="http://127.0.0.1:3333/">http://127.0.0.1:3333/</a> or <a href="http://localhost:3333">http://localhost:3333</a> to use the program.</p>
-      </article>
-      <article role="tabpanel" class="tab-pane active" id="openrefine-linux">
-        <p>Check that you have either the Firefox or the Chrome browser installed and set as your default browser. <strong>OpenRefine runs in your default browser.</strong></p>
-        <p>Download software from <a href="http://openrefine.org/">http://openrefine.org/</a>.</p>
-        <p>Make a directory called OpenRefine.</p>
-        <p>Unzip the downloaded file into the OpenRefine directory.</p>
-        <p>Go to your newly created OpenRefine directory.</p>
-        <p>Launch OpenRefine by entering <code>./refine</code> into the terminal within the OpenRefine directory.</p>
-        <p>If you are using a different browser, or if OpenRefine does not automatically open for you, point your browser at <a href="http://127.0.0.1:3333/">http://127.0.0.1:3333/</a> or <a href="http://localhost:3333">http://localhost:3333</a> to use the program.</p>
-      </article>
-    </div>
-  </div>
-</div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
+#   <div class="tab-content">
+#     <article role="tabpanel" class="tab-pane active" id="openrefine-windows">
+#       <p>
+#         Check that you have either the Firefox or the Chrome browser installed and set as your default browser.
+#         <strong>OpenRefine runs in your default browser.</strong>
+#         It will not run correctly in Internet Explorer.
+#       </p>
+#       <p>Download software from <a href="http://openrefine.org/">http://openrefine.org/</a></p>
+#       <p>Create a new directory called OpenRefine.</p>
+#       <p>Unzip the downloaded file into the OpenRefine directory by right-clicking and selecting "Extract ...". </p>
+#       <p>Go to your newly created OpenRefine directory.</p>
+#       <p>Launch OpenRefine by clicking <code>openrefine.exe</code> (this will launch a command prompt window, but you can ignore that - just wait for OpenRefine to open in the browser).</p>
+#       <p>If you are using a different browser, or if OpenRefine does not automatically open for you, point your browser at <a href="http://127.0.0.1:3333/">http://127.0.0.1:3333/</a> or <a href="http://localhost:3333">http://localhost:3333</a> to use the program.</p>
+#     </article>
+#     <article role="tabpanel" class="tab-pane active" id="openrefine-macos">
+#       <p>Check that you have either the Firefox or the Chrome browser installed and set as your default browser. <strong>OpenRefine runs in your default browser.</strong> It may not run correctly in Safari.</p>
+#       <p>Download software from <a href="http://openrefine.org/">http://openrefine.org/</a>.</p>
+#       <p>Create a new directory called OpenRefine.</p>
+#       <p>Unzip the downloaded file into the OpenRefine directory by double-clicking it.</p>
+#       <p>Go to your newly created OpenRefine directory.</p>
+#       <p>Launch OpenRefine by dragging the icon into the Applications folder.</p>
+#       <p>Use <code>Ctrl-click/Open ... </code> to launch it.</p>
+#       <p>If you are using a different browser, or if OpenRefine does not automatically open for you, point your browser at <a href="http://127.0.0.1:3333/">http://127.0.0.1:3333/</a> or <a href="http://localhost:3333">http://localhost:3333</a> to use the program.</p>
+#     </article>
+#     <article role="tabpanel" class="tab-pane active" id="openrefine-linux">
+#       <p>Check that you have either the Firefox or the Chrome browser installed and set as your default browser. <strong>OpenRefine runs in your default browser.</strong></p>
+#       <p>Download software from <a href="http://openrefine.org/">http://openrefine.org/</a>.</p>
+#       <p>Make a directory called OpenRefine.</p>
+#       <p>Unzip the downloaded file into the OpenRefine directory.</p>
+#       <p>Go to your newly created OpenRefine directory.</p>
+#       <p>Launch OpenRefine by entering <code>./refine</code> into the terminal within the OpenRefine directory.</p>
+#       <p>If you are using a different browser, or if OpenRefine does not automatically open for you, point your browser at <a href="http://127.0.0.1:3333/">http://127.0.0.1:3333/</a> or <a href="http://localhost:3333">http://localhost:3333</a> to use the program.</p>
+#     </article>
+#   </div>
+# </div>
+#</div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
 
 #{% comment %}
 #<div id="vm">
