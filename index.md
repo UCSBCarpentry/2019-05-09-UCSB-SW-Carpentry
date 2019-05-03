@@ -188,7 +188,9 @@ Display the contact email address set in the configuration file.
   {% else %}
   to-be-announced
   {% endif %}
-  for more information.
+  for more information. To learn about future Carpentry workshops, sign up for the <a href="https://groups.google.com/a/library.ucsb.edu/forum/#!forum/carpentry">mailing list here</a>. Sign in with your UCSB email and click "Join Group." .
+
+
 </p>
 
 <hr/>
