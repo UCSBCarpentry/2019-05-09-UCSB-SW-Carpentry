@@ -112,7 +112,7 @@ def average(values):
 
 ~~~
 a = average([1, 3, 4])
-print('average of actual values:', a)
+print(a)
 ~~~
 {: .python}
 ~~~
@@ -121,7 +121,7 @@ print('average of actual values:', a)
 {: .output}
 
 ~~~
-print('average of empty list:', average([]))
+print('average([]))
 ~~~
 {: .python}
 ~~~
