@@ -216,9 +216,9 @@ result of call is: None
 > ~~~
 > {: .output}
 >
-> Explain why the two lines of output appeared in the order they did.
+> 1. Explain why the two lines of output appeared in the order they did.
 >
-> *Assuming a fresh Python session with no functions defined*, what's wrong in this example?
+> 2. *Assuming a fresh Python session with no functions defined*, what's wrong in this example?
 > ~~~
 > result = print_date(1871,3,19)
 >
