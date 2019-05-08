@@ -379,7 +379,6 @@ result of call is: None
 >
 > 1. Create a function definition for `print_egg_label()` that will work with the revised program above.  Note, the function's return value will be significant. Sample output might be `71.23 large`.
 > 2.  A dirty egg might have a mass of more than 90 grams, and a spoiled or broken egg will probably have a mass that's less than 50 grams.  Modify your `print_egg_label()` function to account for these error conditions. 
-
 > Sample output could be `25 too light, probably spoiled`.
 > or `97 warning: egg might be dirty`.
 >
