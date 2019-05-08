@@ -18,6 +18,12 @@ keypoints:
 - "The shell's main advantages are its high action-to-keystroke ratio, its support for automating repetitive tasks, and its capacity to access networked machines."
 - "The shell's main disadvantages are its primarily textual nature and how cryptic its commands and operation can be."
 ---
+
+### Setup
+If you haven't already, please <a href="../files/data-shell.zip">download these files</a> to follow along with this lesson: 
+1. Download and move the file to your Desktop. 
+2. Unzip/extract the file (ask your instructor if you need help with this step). You should end up with a new folder called **data-shell** on your Desktop.
+
 ### Background
 At a high level, computers do four things:
 
