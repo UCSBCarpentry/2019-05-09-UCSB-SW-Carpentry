@@ -317,6 +317,8 @@ please preview your site before committing, and make sure to run
     Bash is a commonly-used shell that gives you the power to do simple
     tasks more quickly.
   </p>
+  
+  <p>You need to <a href="files/data-shell.zip">download some files</a> to follow this lesson: 1. Download  and move the file to your Desktop. 2. Unzip/extract the file (ask your instructor if you need help with this step). You should end up with a new folder called **data-shell** on your Desktop. </p>
 
   <div>
     <ul class="nav nav-tabs nav-justified" role="tablist">
