@@ -3,7 +3,7 @@ layout: break
 title: "Lunch"
 teaching: 0
 exercises: 0
-break: 45
+break: 1 hour
 ---
 Over lunch, reflect on and discuss the following:
 * What sort of packages might you use in Python and why would you use them?
