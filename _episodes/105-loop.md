@@ -64,15 +64,20 @@ Here's a simple example that displays the first three lines of each file in turn
 ~~~
 $ for filename in basilisk.dat unicorn.dat
 > do
->    head -n 3 $filename	# Indentation within the loop aids legibility
+>    echo $filename        # outputs the value of $filename
+>    head -n 3 $filename   # outputs 3 lines of the file
+>    echo                  # outputs a blank line
 > done
 ~~~
 {: .language-bash}
 
 ~~~
+basilisk.dat
 COMMON NAME: basilisk
 CLASSIFICATION: basiliscus vulgaris
 UPDATED: 1745-05-02
+
+unicorn.dat
 COMMON NAME: unicorn
 CLASSIFICATION: equus monoceros
 UPDATED: 1738-11-24
@@ -108,11 +113,14 @@ Each time the loop iterates, it will assign a file name to the variable `filenam
 and run the `head` command.
 The first time through the loop,
 `$filename` is `basilisk.dat`. 
-The interpreter runs the command `head` on `basilisk.dat`, 
-and then prints the 
-first three lines of `basilisk.dat`.
-For the second iteration, `$filename` becomes 
-`unicorn.dat`. This time, the shell runs `head` on `unicorn.dat`
+First we use `echo` to print the value of our `$filename` variable.
+Then the interpreter runs the command `head` on `basilisk.dat`, 
+which prints the first three lines of `basilisk.dat`.
+And then on the 3rd line inside the loop we `echo` a blank line.
+
+For the second iteration, `$filename` becomes `unicorn.dat`. 
+Agin we use `echo` to print the value of the `$filename` variable and then
+the shell runs `head` on `unicorn.dat`
 and prints the first three lines of `unicorn.dat`. 
 Since the list was only two items, the shell exits the `for` loop.
 
