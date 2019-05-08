@@ -20,7 +20,7 @@ keypoints:
 *   Understand larger/more complicated ideas by understanding and combining pieces.
     *   Components in a machine.
     *   Lemmas when proving theorems.
-*   Functions serve the same purpose in programs.
+*   **Functions serve the same purpose in programs**.
     *   *Encapsulate* complexity so that we can treat it as a single "thing".
 *   Also enables *re-use*.
     *   Write one time, use many times.
