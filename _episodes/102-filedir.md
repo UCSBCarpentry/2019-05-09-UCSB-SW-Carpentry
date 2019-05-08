@@ -76,7 +76,7 @@ which will be constructed in a similar way, but not be exactly identical.
 
 On Nelle's computer, the filesystem looks like this:
 
-![The File System](../../fig/filesystem.svg)
+![The File System](../fig/filesystem.svg)
 
 At the top is the **root directory**
 that holds everything else.
